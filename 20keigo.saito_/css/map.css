@@ -1,0 +1,64 @@
+.gmap{
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.map{
+    width:auto;
+    height:400px;
+    margin: 20px auto;
+
+}
+.select{
+    display: flex;
+    margin: 20px auto;
+}
+
+.sbtn{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.serch {
+    display       : inline-block;
+    border-radius : 3%;          /* 角丸       */
+    font-size     : 19pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 15px 66px;   /* 余白       */
+    background    : #000066;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    border        : 2px solid #000066;    /* 枠の指定 */
+  }
+  .serch:hover {
+    color         : #000066;     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+  }
+
+  .list{
+      display: none;
+  }
+
+  table{
+    table-layout: fixed;
+    width: 100%;     /* セルの幅計算指定 */
+    border-collapse:collapse;
+    margin:0 auto;
+
+  }
+  td,th{
+    border:1px solid #ccc;
+    padding:10px;
+  }
+  th{
+    background:#EFEFEF;
+  }
+  tr:first-child th{
+    border-top:5px solid #005ab3;
+  }
+  tr:first-child td{
+    border-top:5px solid #ccc;
+  }
